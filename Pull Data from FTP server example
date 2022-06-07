@@ -1,0 +1,4 @@
+sftp <user>@<host>
+# enter password
+sftp> ls  #view files
+sftp> get -r <folder>
