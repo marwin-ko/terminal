@@ -1,0 +1,8 @@
+#
+# ssh into AWS EC2 Instance
+#
+
+# Make sure the key is in your .ssh directory
+
+# Connect
+ssh -i ~/.ssh/<key.pem> ec2-user@<private id address>
