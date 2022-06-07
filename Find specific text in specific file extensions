@@ -1,0 +1,2 @@
+# Find specific text in specific file types
+$ find . -type f -name “*.py” | xargs grep “text in python file”
