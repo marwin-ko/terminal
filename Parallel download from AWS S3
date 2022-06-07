@@ -1,0 +1,3 @@
+https://stackoverflow.com/questions/38021661/copy-multiple-files-from-s3-bucket
+
+cat <filename>.txt | parallel aws s3 cp {} <output_dir>
