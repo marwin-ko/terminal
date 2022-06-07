@@ -1,0 +1,8 @@
+AWS S3 Sync - Transfer Data
+# on server, cd into folder of everything you want to transfer
+$ cd <folder name> 
+
+# no need to create <folder name> in S3 prior to…S3 will auto-gen the directory
+$ aws s3 sync . s3://<bucket>/<folder name>/
+ 
+# this will move all folders and files recursively and give you 
